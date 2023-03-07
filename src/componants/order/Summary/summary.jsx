@@ -124,7 +124,7 @@ export default function Summary(props){
                 // console.log(completeData);
                 async function postCall() {
                   try {
-                    let url ="https://laudry-cart.onrender.com" + "/createorder";
+                    let url ="https://laundry-backend-9l08.onrender.com" + "/createorder";
                     await axios(url, {
                       method: "post",
                       data: completeData,

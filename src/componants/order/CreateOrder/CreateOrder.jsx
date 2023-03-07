@@ -189,7 +189,7 @@ export default function CreateOrder(){
     const [productData,productDispatcher] = useReducer(productReducer,[]);
     // console.log(productData);
     useEffect(()=>{
-        const url = "https://laudry-cart.onrender.com" +"/product";
+        const url = "https://laundry-backend-9l08.onrender.com" +"/product";
          async function FCall(){
            try{
               const response = await axios(url,{
